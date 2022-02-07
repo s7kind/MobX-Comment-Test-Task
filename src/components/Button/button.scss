@@ -1,0 +1,27 @@
+.primary__btn {
+  border-radius: 8px;
+  height: 48px;
+  padding: 9px 16px;
+  transition: all .3s ease;
+  width: 170px;
+  position: relative;
+  text-align: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: #e30613;
+  color: #fff;
+  border: 1px solid #e30613;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #b60812;
+  }
+
+  span {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}

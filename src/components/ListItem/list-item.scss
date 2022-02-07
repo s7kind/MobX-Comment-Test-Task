@@ -1,0 +1,70 @@
+.person__list {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.person__el {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  border-radius: 6px;
+  justify-content: space-between;
+
+  &--wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      background: #fff;
+      font-size: 12px;
+      height: 46px;
+      border-radius: 6px;
+      margin-right: 14px;
+      padding: 0 6px;
+    }
+  }
+
+  &--add {
+    display: flex;
+    align-items: center;
+  }
+
+  &--name {
+    margin-right: 24px;
+
+    span {
+      font-weight: 400;
+    }
+  }
+
+  &--date {
+    span {
+      font-weight: 400;
+    }
+  }
+
+  &--info {
+    display: flex;
+  }
+
+  &--comments {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: 400;
+    }
+  }
+}
+
+.remove__comment {
+  color: red;
+}

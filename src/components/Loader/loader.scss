@@ -1,0 +1,15 @@
+.loader {
+  animation: animLoader 2s ease-in-out infinite both;
+}
+
+@keyframes animLoader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
